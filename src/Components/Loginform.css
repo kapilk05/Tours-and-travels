@@ -1,0 +1,55 @@
+
+.abc {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-image: linear-gradient(79deg,#fcfced,#fcedfc,48%,#ebfceb);
+}
+
+.auth-form-container, .loginform, .registerform{
+    flex-direction: column;
+    display: flex;
+}
+
+label{
+    text-align: left;
+    padding: 0.3rem 0;
+}
+
+input{
+    margin:0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 7px;
+    width: 350px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.link-btn{
+    background: none;
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.link-btn:hover{
+    color: #ffffff;
+    background-color: #2a2a2a;
+}
+
+@media screen  and (max-width:850px) {
+    .link-btn{
+    background: none;
+    text-decoration: none;
+    color: #2a2a2a;
+    }
+}
